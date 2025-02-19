@@ -1,0 +1,32 @@
+.about {
+}
+
+.about .title {
+    color: darkblue;
+}
+
+.about nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.about .dynamic-cmps {
+    width: max-content;
+    padding: 0.5em;
+    margin-block: 10px;
+    font-size: 22px;
+}
+
+.about .dynamic-cmps:active {
+    scale: 0.97;
+    transition: scale 0.15s;
+}
+
+.about .dynamic-cmps h1 {
+    cursor: pointer;
+}
+
+.about .dynamic-cmps h1::selection {
+    display: none;
+}

@@ -1,0 +1,50 @@
+.app-footer {
+    /* padding-block: 20px; */
+    height: 150px;
+    background-color: #101010;
+    color: white;
+    transition: 0.2s;
+    padding-bottom: 10px;
+}
+
+.app-footer > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.app-footer h1 {
+    margin-inline-end: auto;
+}
+
+.app-footer nav {
+    display: flex;
+    gap: 10px;
+}
+
+.app-footer .active {
+    color: white;
+}
+
+.app-footer .items-container {
+    display: flex;
+    gap: 10px;
+}
+
+.app-footer .item {
+    border: whitesmoke 3px solid;
+    padding: 5px;
+    margin: 5px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: 0.2s border-width;
+}
+
+.app-footer .chosen {
+    border-width: 6px;
+}
